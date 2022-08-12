@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained(); //user_idとくっつける
             $table->string('title');
-            $table->string('description');
+            $table->string('description')->nullable(); //nullを許可する
             $table->timestamps();
         });
     }
