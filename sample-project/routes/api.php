@@ -3,8 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
-use App\Http\Controllers\BookController;
-use App\Http\Controllers\RatingController;
+use App\Http\Controllers\Api\BookController;
+use App\Http\Controllers\Api\RatingController;
 
 /*
 |--------------------------------------------------------------------------

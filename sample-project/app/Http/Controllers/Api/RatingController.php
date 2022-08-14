@@ -3,9 +3,8 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\Api\RatingController;
 use Illuminate\Http\Request;
-use Api\Http\Resoueces\RatingResource;
+use Api\Http\Resources\RatingResource;
 use Api\Models\Books;
 use Api\Models\Ratings;
 
