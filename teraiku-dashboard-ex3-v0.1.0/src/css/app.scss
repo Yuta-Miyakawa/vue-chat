@@ -1,0 +1,23 @@
+// app global css in SCSS form
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: normal;
+//src: url("../assets/fonts/noto-sans-jp-v40-latin_japanese-regular.woff") format("woff");
+src: url("../assets/fonts/noto-sans-jp-v40-latin_japanese-regular.woff2") format("woff2");
+// src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+}
+
+
+body {
+  font-family: 'Noto Sans JP',  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  // overflow-wrap: break-word;
+  text-align: justify;
+}
+
+.u-pre-wrap {
+  white-space: pre-wrap;
+}

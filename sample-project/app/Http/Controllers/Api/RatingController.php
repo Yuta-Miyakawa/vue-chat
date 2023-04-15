@@ -4,9 +4,9 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Api\Http\Resources\RatingResource;
-use Api\Models\Books;
-use Api\Models\Ratings;
+use App\Http\Resources\RatingResource;
+use App\Models\Book;
+use App\Models\Rating;
 
 class RatingController extends Controller
 
